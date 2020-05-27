@@ -1,0 +1,26 @@
+
+body {
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100% ;
+  margin: 0;
+}
+
+.introduction {
+  color: blue;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  font-size: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  bottom: 10px;
+  text-align: center;
+  left: 0;
+  line-height: 2.0;
+}
+
+.contact {
+  font-size: 24px;
+  text-decoration: underline;
+  color: black;
+}
