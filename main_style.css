@@ -1,0 +1,115 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+li, a {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3383FF;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+
+
+}
+
+nav
+{
+  align-content: center;
+}
+.nav_links {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+  position: sticky;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  position: relative;
+
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+
+}
+.links {
+  color: blue;
+  opacity: 0.8;
+}
+
+
+.nav_links li a:hover {
+  text-decoration: underline;
+  color: #b3ffff;
+  opacity: 0.95;
+}
+
+.icons {
+  float: right;
+  margin: 0;
+  padding-bottom: 20px;
+  list-style: none;
+  color: transparent;
+}
+
+.icons li {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-google {
+  background: #0F9D58;
+  color: white;
+}
+
+.fa-github-square {
+  background: #211F1F;
+  color: white;
+}
